@@ -1495,7 +1495,7 @@
     font-size: 35px !important;
   }
   .ideas {
-    margin-top: 280px;
+    margin-top: 400px;
   }
   .ideas .ideas__content {
     max-width: 100%;
@@ -1524,6 +1524,9 @@
   .ideas__title,
   .partners__title {
     font-size: 25px !important;
+  }
+  .ideas {
+    margin-top: 280px !important;
   }
   .creative__rainbow {
     font-size: 60px !important;
