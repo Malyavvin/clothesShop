@@ -1039,10 +1039,16 @@
     .menu__item{
         padding: 40px 15px !important;
     }
+    .ideas{
+        position: relative;
+    }
     .ideas__images{
-        position: relative !important;
-        top: -40vh !important;
-        left: -50vh !important;
+        position: absolute !important;
+        top: -22vh !important;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
         .rocket2{
             right: -8vh !important;
         }
@@ -1097,8 +1103,6 @@
             margin-left: 0px;
         }
         .ideas__images {
-            top: -70vh !important;
-            left: -85vh !important;
                 .rocket {
                     left: 5%;
                     width: 50px;
@@ -1110,7 +1114,6 @@
                 }
                 .rocket2 {
                     top: 6vh;
-                    right: -22vh;
                     width: 50px;
             }
         }
@@ -1355,6 +1358,7 @@
     }
     .creative{
         background-image: none;
+        padding: 125px 0px 0px 0px;
         .container{
             flex-direction: column;
         }
@@ -1366,18 +1370,18 @@
             }
         }
         .creative__img{
-            background-image: url("../img/home/home-creative/bg.svg");
-            background-position: left, right;
-            background-size: cover;
-            position: absolute; 
-            left: 0%;
-            top: 190%;
+            display: none;
         }
     }
     .assortment{
-        margin-top: 480px;
         .assortment__content{
             max-width: 100%;
+        }
+    }
+    .ideas__images{
+        max-width: 250px !important;
+        .rocket2{
+            right: -39px !important;
         }
     }
     .footer {
@@ -1413,7 +1417,7 @@
         font-size: 35px !important;
     }
     .ideas{
-        margin-top: 450px;
+        margin-top: 280px;
         .ideas__content{
             max-width: 100%;
         }
@@ -1421,9 +1425,8 @@
             font-size: 25px;
         }
         .ideas__images{
-            top: -64vh !important;
-            left: -53vh !important;
-            max-width: 200px;
+            top: -8vh !important;
+            max-width: 200px !important;
         }
         .ideas__input {
             >input {
