@@ -2002,14 +2002,26 @@ button{
 //Конец страницы "Пошив - внутреннее"
 
 //Начало страницы "Производство"
-@media screen and (max-width:600px) {
 .creating{
-    min-height: 700px;
-    .creating__img{
-        left: 0;
-        right: 0;
+    .container{
+        align-items: center;
     }
 }
+@media screen and (max-width:1368px) {
+    .creating{
+        .container{
+            align-items: flex-end;
+        }
+    }
+}
+@media screen and (max-width:600px) {
+    .creating{
+        min-height: 700px;
+        .creating__img{
+            left: 0;
+            right: 0;
+        }
+    }
 }
 //Конец страницы "Производство"
 
