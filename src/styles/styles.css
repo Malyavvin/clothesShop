@@ -1461,7 +1461,7 @@
     background-size: cover;
     position: absolute;
     left: 0%;
-    top: 730px;
+    top: 690px;
   }
   .assortment {
     margin-top: 480px;
@@ -1539,6 +1539,9 @@
   }
   .creative__rainbow {
     font-size: 60px !important;
+  }
+  .creative__img {
+    top: 630px !important;
   }
   .footer-r {
     flex-wrap: wrap;
