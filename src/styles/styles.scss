@@ -1359,6 +1359,7 @@
     .creative{
         background-image: none;
         padding: 125px 0px 0px 0px;
+        position: relative;
         .container{
             flex-direction: column;
         }
@@ -1370,10 +1371,16 @@
             }
         }
         .creative__img{
-            display: none;
+            background-image: url("../img/home/home-creative/bg.svg");
+            background-position: left, right;
+            background-size: cover;
+            position: absolute;
+            left: 0%;
+            top: 730px;
         }
     }
     .assortment{
+        margin-top: 480px;
         .assortment__content{
             max-width: 100%;
         }
