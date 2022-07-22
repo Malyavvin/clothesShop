@@ -1804,6 +1804,7 @@ button{
                 font-size: 36px;
                 line-height: 130%;
                 color: #272525;
+                padding: 0px 35px 0px 10px;
             }
             p {
                 font-family: 'Gilroy';
@@ -2012,7 +2013,7 @@ button{
 }
 @media screen and (max-width:500px){
     .tailoringInner__ideas{
-        margin-top: 100px;
+        margin-top: 100px !important;
     }
 }
 //Конец страницы "Пошив - внутреннее"
